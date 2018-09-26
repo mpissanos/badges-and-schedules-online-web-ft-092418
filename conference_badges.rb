@@ -9,6 +9,15 @@ end
 
 def assign_rooms(names)
   names.map.with_index {|name , index|  "Hello, #{name}! You'll be assigned to room #{index + 1}!" }
+  def assign_rooms(names)
+    arr = []
+    count = 1
+    names.each do |name|
+      puts 
+end
+
+
+
 end
 
 def printer(names)
